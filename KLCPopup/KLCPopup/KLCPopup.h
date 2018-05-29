@@ -23,6 +23,9 @@
 
 
 // KLCPopupShowType: Controls how the popup will be presented.
+
+#import <UIKit/UIKit.h>
+
 typedef NS_ENUM(NSInteger, KLCPopupShowType) {
 	KLCPopupShowTypeNone = 0,
 	KLCPopupShowTypeFadeIn,
